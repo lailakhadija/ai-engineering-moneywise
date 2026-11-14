@@ -1,0 +1,51 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-14T01:26:42.117219+00:00",
+  "data_type": "documents",
+  "configuration": {
+    "chunk_size": 500,
+    "method": "page-aware-sentence",
+    "clean": {
+      "footer_regex": "Malaysia National Strategy for Financial Literacy 2026\\s*[-–]\\s*2030(?:\\s+0\\d)*",
+      "number_line_regex": "[\\d\\s.,%:/+-]+",
+      "contents_markers": [
+        "Setting the Stage",
+        "Voices to Vision",
+        "Foundations for Change"
+      ]
+    }
+  },
+  "processing_method": "page-aware-sentence text chunks of 500 characters; page numbers kept; footer, number-only lines and contents page removed",
+  "sources": [
+    {
+      "path": "/content/drive/MyDrive/ai_engineering/week3_project/data/raw/FEN_NS2_ENG_Interactive_FA_LowRes.pdf",
+      "sha256": "0f36d2bebbd5fafdd5a3de3e0ba154ff10ba8b516f298d2a290e1118ff73650b"
+    }
+  ],
+  "outputs": [
+    "/content/drive/MyDrive/ai_engineering/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/drive/MyDrive/ai_engineering/week3_project/data/raw/FEN_NS2_ENG_Interactive_FA_LowRes.pdf",
+      "output": "/content/drive/MyDrive/ai_engineering/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "source": "FEN_NS2_ENG_Interactive_FA_LowRes.pdf",
+    "pages": 39,
+    "blank_pages": 1,
+    "characters": 131469
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "513e77c3d97fac0b604ed9d0dd1dee580459d5ca05d02d1c0ac214f546a85163"
+    ],
+    "output_bytes": [
+      172694
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}
