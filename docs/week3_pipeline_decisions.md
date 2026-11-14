@@ -1,7 +1,5 @@
 # Week 3 Pipeline Decisions — MoneyWise
 
-> **Draft status:** All numbers come from the recorded outputs of `notebooks/week3_pipeline.ipynb` (page-aware version). Read it through, check you agree with the wording, then delete this note.
-
 **Notebook:** `notebooks/week3_pipeline.ipynb` | **Diagram:** `docs/week3_pipeline_diagram.png` | **Inventory:** `docs/week3_data_inventory.md`
 
 ---
