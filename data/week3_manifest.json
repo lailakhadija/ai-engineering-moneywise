@@ -1,0 +1,17 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-14T01:26:26.771786+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "FEN_NS2_ENG_Interactive_FA_LowRes.pdf",
+      "source_sha256": "0f36d2bebbd5fafdd5a3de3e0ba154ff10ba8b516f298d2a290e1118ff73650b",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "3a79b8cfb5adbbd0dbd66e60d995ee57481647b13e8e5a3d01b6216d2675d89a",
+      "processing_note": "page-aware-sentence-char-500; page numbers kept; running footer, number-only lines and contents page removed",
+      "source_version": "Not verified",
+      "access_rights": "Not verified",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}
